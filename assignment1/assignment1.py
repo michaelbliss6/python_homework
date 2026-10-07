@@ -100,7 +100,7 @@ def titlize(title):
     return " ".join(result)
 
 titles = [
-    "the lord of the rings",
+    "lord of the flies",
     "a tale of two cities",
     "don't stop believing",
 ]
