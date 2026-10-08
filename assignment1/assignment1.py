@@ -2,12 +2,12 @@
 
 #Task 1
 def hello():
-    print("Hello!")
+    ("Hello!")
 hello()
 
 #Task 2
 def greet(name):
-    print("Hello, " + name + "!")
+    return("Hello, " + name + "!")
 greet("Michael")
 
 #Task 3
@@ -57,12 +57,12 @@ def grade(*args):
         
     if average >= 90:
         return "A"
-    elif average <= 80:
+    elif average >= 80:
         return "B"
-    elif average <= 70:
-            return "C"
-    elif average <= 60:
-            return "D"
+    elif average >= 70:
+        return "C"
+    elif average >= 60:
+        return "D"
     else:
         return "F"
 
@@ -89,7 +89,7 @@ def student_scores(mode, **kwargs):
 #Task 8
 little_words = {"a", "on", "an", "the", "of", "and", "is", "in"}
 
-def titlize(title):
+def titleize(title):
     words = title.lower().split()
     result = []
     for i, word in enumerate(words):
@@ -106,7 +106,7 @@ titles = [
 ]
 
 for title in titles:
-    print(titlize(title))
+    print(titleize(title))
 
 #Task 9
 def hangman(secret, guess):
