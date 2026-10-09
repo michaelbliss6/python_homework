@@ -2,13 +2,13 @@
 
 #Task 1
 def hello():
-    ("Hello!")
-hello()
+    return("Hello!")
+print(hello())
 
 #Task 2
 def greet(name):
     return("Hello, " + name + "!")
-greet("Michael")
+print(greet("Michael"))
 
 #Task 3
 def calc(a, b, operation="multiply"):
