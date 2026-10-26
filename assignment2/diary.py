@@ -1,13 +1,14 @@
 import traceback
 
 try:
-   with open('diary.txt', 'w') as file:
-      prompt = "What happened today?"
-      while True:
+   with open('diary.txt', 'a') as file:
+        prompt = "What happened today?"
+    
+        while True:
             line = input(prompt)
-            file.write(line + "\n")
             if line == "done for now":
-               break
+                break
+            file.write(line + "\n")
             prompt = "What else?"
 
 except Exception as e:
