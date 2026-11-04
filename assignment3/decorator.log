@@ -1,0 +1,100 @@
+function: greeting
+positional parameters: none
+keyword parameters: none
+return: Hello, World!
+
+function: trueFunc
+positional parameters: ('a', 'b', 'c')
+keyword parameters: none
+return: True
+
+function: greeting
+positional parameters: none
+keyword parameters: none
+return: Hello, World!
+
+function: trueFunc
+positional parameters: ('a', 'b', 'c')
+keyword parameters: none
+return: True
+
+function: returnLogger
+positional parameters: none
+keyword parameters: {'name': 'Sam', 'age': 30}
+return: <function logger_decorator at 0x1076f1dd0>
+
+function: greeting
+positional parameters: none
+keyword parameters: none
+return: Hello, World!
+
+function: trueFunc
+positional parameters: ('a', 'b', 'c')
+keyword parameters: none
+return: True
+
+function: returnLogger
+positional parameters: none
+keyword parameters: {'name': 'Sam', 'age': 30}
+return: <function logger_decorator at 0x1050b5dd0>
+
+function: greeting
+positional parameters: none
+keyword parameters: none
+return: Hello, World!
+
+function: trueFunc
+positional parameters: ('a', 'b', 'c')
+keyword parameters: none
+return: True
+
+function: returnLogger
+positional parameters: none
+keyword parameters: {'name': 'Sam', 'age': 30}
+return: <function logger_decorator at 0x1081a9dd0>
+
+function: greeting
+positional parameters: none
+keyword parameters: none
+return: Hello, World!
+
+function: trueFunc
+positional parameters: ('a', 'b', 'c')
+keyword parameters: none
+return: True
+
+function: returnLogger
+positional parameters: none
+keyword parameters: {'name': 'Sam', 'age': 30}
+return: <function logger_decorator at 0x107d1ddd0>
+
+function: greeting
+positional parameters: none
+keyword parameters: none
+return: Hello, World!
+
+function: trueFunc
+positional parameters: ('a', 'b', 'c')
+keyword parameters: none
+return: True
+
+function: returnLogger
+positional parameters: none
+keyword parameters: {'name': 'Sam', 'age': 30}
+return: <function logger_decorator at 0x109bc5dd0>
+
+function: say_hello
+positional parameters: none
+keyword parameters: none
+return: None
+
+function: accept_positional
+positional parameters: [1, 2, 'three']
+keyword parameters: none
+return: True
+
+function: accept_keywords
+positional parameters: none
+keyword parameters: {'name': 'Ada', 'language': 'Python'}
+return: <function logger_decorator at 0x103509dd0>
+
